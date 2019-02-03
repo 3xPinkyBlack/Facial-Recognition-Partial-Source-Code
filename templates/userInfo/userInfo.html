@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='user/style.css') }}" type="text/css" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='user/user.css') }}" type="text/css" />
+        <meta http-equiv="refresh" content="1" >
+    </head>
+    
+    <body>
+        <style>
+            body {
+                background-color: lightblue;
+            }
+        </style>
+        <div class="detectedImage">
+            <img id="userImage" src="{{ url_for('viewQRCode') }}" width="149" height="149">
+        </div>
+        <div class="QRImage">
+            <img id="userImage" src="{{ url_for('userImage') }}" width="149" height="149">
+        </div>
+                
+        <div class="FullInfo">
+            <input type="text" id="fullName" value="Habib Endris Mohammed" disabled>
+            <input type="text" value="Meal Time : Lunch" disabled>
+            <input type="text" value="User State: Eaten" disabled>
+            <input type="text" id="eaten" value="You Have Eaten Your Meal Please Go back" disabled>
+        </div>
+    </body>
+</html>

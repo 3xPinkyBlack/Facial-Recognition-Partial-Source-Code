@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KIoT - Web Based Facial Recognition System</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='user/style.css') }}" type="text/css" />
+	</head>
+
+	<body>
+		<div class="mainBody">
+			<div class="videoCamera">
+				<div class="videoObj">
+    				<img id="bg" src="{{ url_for('video_feed') }}">
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

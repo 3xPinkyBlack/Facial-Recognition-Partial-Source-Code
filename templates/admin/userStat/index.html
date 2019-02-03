@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Statistics - Admin Panel</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='admin/style.css') }}" type="text/css" />
+	</head>
+
+	<body>
+
+		<div class="nav">
+			<div class="icon">
+				<img id="icon" src="{{ url_for('static', filename='image/wu.png') }}">
+			</div>
+
+			<div class="welcome">
+				<h1 id="wellcome">!# Student Cafeteria - Admin Panel</h1>
+				<div class="mainNav">
+					<a href="{{ url_for('admin') }}">Home Page</a>
+					<a href="{{ url_for('toDayAct') }}">ToDay Users</a>
+					<a href="{{ url_for('cheaters') }}">Cheaters</a>
+					<a href="{{ url_for('nonCafe') }}">Non Cafe</a>
+                    <a href="{{ url_for('regUser') }}">Register User</a>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+	</body>
+</html>

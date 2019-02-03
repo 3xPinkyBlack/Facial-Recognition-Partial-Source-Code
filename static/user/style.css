@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	font-family: "Comic Sans MS","MV Boli";
+}
+.videoCamera {
+	width: 100%;
+	height: 50px;
+}
+
+#bg {
+	border:1px solid lightgreen;
+	background-color: lightblue;
+	border-radius: 10px;
+	height: 728px;
+	width: 97%;
+	padding: 15px;
+}

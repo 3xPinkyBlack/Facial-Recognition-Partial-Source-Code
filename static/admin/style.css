@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	background-color: rgb(255, 153, 204);
+	font-family: "Comic Sans MS","MV Boli";
+}
+
+#wellcome {
+	text-align: center;
+	font-size: 45px;
+}
+
+.nav {
+	background-color: rgb(255, 153, 153);
+	padding: 1px 25px 1px 25px;
+}
+
+#icon {
+	padding: 10px 0 0 0;
+	width: 100%;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.icon {
+	width: 15%;
+	height: 180px;
+	float: left;
+}
+
+.wellcome {
+	float: left;
+	width: 84%;
+}
+
+.mainNav a {
+	background-color: #ffb3b3;
+	padding: 5px 25px 5px 25px;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	margin: 5px;
+	font-size: 25px;
+}
+
+.mainNav a:hover, .regUser input[type=submit]:hover {
+	background-color: #33cccc;
+}
+
+.mainNav {
+	padding: 10px 5px 0 5px;
+}
+
+.regUser {
+	margin: 25px;
+}
+
+.regUser label {
+	float: left;
+	width: 150px;
+	background-color: antiquewhite;
+	padding: 5px;
+}
+
+.regUser input[type=text] {
+	border: none;
+	background-color: aqua;
+	padding: 3px 7px 3px 7px;
+	margin: 5px;
+	font-size: 18px;
+	border-radius: 0 0 10px 10px;
+}
+
+.regUser input[type=submit] {
+	border: none;
+	background-color: #ffb3b3;
+	padding: 3px 25px 3px 25px;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+}
